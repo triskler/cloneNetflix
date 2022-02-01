@@ -1,8 +1,16 @@
-/*var resultados = []
-
-for(var index = 0; index < numeros.length; index++) {
-  var elementoMultiplicadoPorDois = numeros[index] * 2
-  resultados.push(elementoMultiplicadoPorDois)
-}*/
-
-
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})

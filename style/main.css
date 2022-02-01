@@ -57,6 +57,7 @@ header nav a:hover{
 
 .filme-principal .descricao{
     margin-bottom: 40px;
+    font-size: 15px;
 }
 
 .titulo{
@@ -82,3 +83,31 @@ header nav a:hover{
     color: #141414;
 }
 
+.container{
+    margin-left: 15px;
+}
+
+.filme-principal .container{
+    width: 60%;
+}
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+@media screen and (max-width:600px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .botao{
+        margin-top: 5px;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
