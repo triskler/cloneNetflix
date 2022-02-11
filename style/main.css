@@ -12,7 +12,7 @@
 body{
     background-color: var(--preta);
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
 }
 
 header .logo{
@@ -44,7 +44,7 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("/pratica-web/netflix-clone/exercicio/img/pacificador.jpg");
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("../img/pacificador.jpg");
     
     height: 400px;
     background-size: cover;
